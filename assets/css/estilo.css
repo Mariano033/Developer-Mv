@@ -1,0 +1,55 @@
+
+#nav{
+    background-color:black;
+}
+#top{
+    background-color: rgb(32, 32, 32);
+}
+
+.button{
+    background-color: rgb(6, 151, 6);
+    padding: 16px;
+   
+    border-radius:16px;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: darkgreen;
+}
+
+#di{
+    width:35%;
+    bottom:35px;
+    margin-inline:auto;
+    
+
+
+}
+#img{
+
+    width: 383px;
+    height:180px;
+   
+    
+}
+
+#tit{
+   color: black ;
+}
+
+.parrafo{
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#contact{
+    padding: 40px;
+    
+    background-color: rgb(17, 17, 17);
+}
+
+.icon:hover{
+   background-color: green;
+}
