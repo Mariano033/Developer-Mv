@@ -1,10 +1,13 @@
 
 #nav{
     background-color:black;
+    margin-inline-start: auto;
 }
+
 #top{
     background-color: rgb(32, 32, 32);
 }
+
 
 .button{
     background-color: rgb(6, 151, 6);
@@ -26,9 +29,23 @@
 
 
 }
+
+/* Ajusta las imágenes dentro de los artículos */
+#portfolio .image.featured img {
+    width: 100%;
+    height: auto; /* Mantiene la proporción original */
+    object-fit: cover; /* Ajusta el contenido dentro del contenedor */
+     /* Opcional: bordes redondeados */
+}
+
+
+
+
+
+
 #img{
 
-    width: 383px;
+    width: 381px;
     height:180px;
    
     
@@ -52,4 +69,11 @@
 
 .icon:hover{
    background-color: green;
+}
+
+/* Ajustes generales para pantallas pequeñas */
+@media (max-width: 768px) {
+    #portfolio .row {
+        flex-direction: column; /* Muestra las columnas en una sola línea vertical */
+    }
 }
