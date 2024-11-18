@@ -3,7 +3,9 @@
     background-color:black;
     margin-inline-start: auto;
 }
-
+h1{
+    color: rgb(150, 148, 148);
+}
 #top{
     background-color: rgb(32, 32, 32);
 }
